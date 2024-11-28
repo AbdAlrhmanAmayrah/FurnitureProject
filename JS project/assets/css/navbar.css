@@ -1,0 +1,74 @@
+@import "./base.css";
+
+
+
+.navbar{
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .logo span{
+    font-family: var(--mainFont);
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.navbar .logo img{
+    width: 50px;
+}
+
+.navbar .menu {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    background-color: #ffffff;
+    padding: 10px;
+    
+}
+.navbar .list ul   {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar .list ul li a {
+    color: #000000;
+    font-family: var(--mainFont);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.navbar .section2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar .section2 img {
+
+    width: 30px;
+}
+.navbar .list ul li a:hover {
+    background-color: var(--mainColor);
+    color: #ffffff;
+    border: 1px solid  var(--mainColor);
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar .section2 img:hover {
+    background-color: var(--mainColor);
+    border: 1px solid  var(--mainColor);
+    border-radius: 10px;
+    padding: 10px;
+}
+

@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+:root{
+
+    --mainColor : #B88E2F;
+    --mainFont : "Poppins", sans-serif;
+    
+}
+.container{
+    margin: auto;
+    width: calc(100% - 120px);
+
+}
+
